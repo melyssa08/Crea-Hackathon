@@ -23,9 +23,13 @@ Nossos campos incluem nome, cpf, email e data
 
 ![Template](./front/assets/template.PNG)
 
-### Descrição da Solução (Conexão com o EMEC)
+### Descrição da Solução (Conexão com o e-MEC)
 
+Segundamente, nossa outra funcionalidade se centraliza na conexão entre o Crea-SP em o e-Mec. Ademais, essa conexão seria que a equipe do Crea-SP usufruiria de informações dentro do e-Mec, pois nessa plataforma do MEC é obrigatório por parte das instituições impor dados atualizados da matriz curricular. Então se existe uma plataforma com essas informações e que ainda é um Orgão Público poderia haver uma forma de parceria em que o Crea-SP obtesse informações do MEC, de modo que essas informações já estão pré validadas pela equipe do MEC e atualizadas.
 
+Logo abaixo, temos um fluxo simplificado de como será essa interação e-Mec e Crea-SP. Tudo isso levando em consideração, a redução do custo e trabalho por parte do Crea-SP, garantido a ***robustez, rapidez, e integridade dos dados***:
+
+![Fluxo interação e-Mec e Crea-SP](./front/assets/fluxo-emec.jpeg)
 
 ### Tecnologias usadas
 
