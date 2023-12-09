@@ -46,6 +46,7 @@ Primeiramente, precisa das seguintes tecnologias abaixo:
 
 - Um editor de texto de código (VSCODE, por exemplo);
 - Baixado o SQlite
+- Crie uma pasta ***planilha*** dentro da pasta front/
 
 Abra o terminal na pasta \back e rode:
 
