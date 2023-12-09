@@ -10,18 +10,18 @@ Essa lista de formandos estaria limitada ao formato ***.xlsx***, o que permitiri
 
 Primeira tela de contato da instituição, no caso do coordenador
 
-![Visão Geral](../Crea-Hackathon/front/assets/visao-geral.PNG)
+![Visão Geral](./front/assets/visao-geral.PNG)
 
 #### Tela de cadastramento do documento
 
-![Tela de cadastramento do documento](../Crea-Hackathon/front/assets/cadastro-crea.PNG)
+![Tela de cadastramento do documento](./front/assets/cadastro-crea.PNG)
 
 
 #### Template para auxiliar a instituição em relação ao melhor modelo de lista de formandos
 
 Nossos campos incluem nome, cpf, email e data
 
-![Template](../Crea-Hackathon/front/assets/template.PNG)
+![Template](./front/assets/template.PNG)
 
 ### Descrição da Solução (Conexão com o EMEC)
 
@@ -64,23 +64,21 @@ http://localhost:3000
 
 ### Estrutura de Pastas
 
-# meu_projeto
-
-- [README.md](./README.md)
+- README.md
 - **back/**
-  - [config/](./back/config)
-  - [model/](.back/model)
-  - [app.js](./back/model/app.js)
-  - [database.sqlite](./back/model/database.sqlite)
-  - [package.json](./back/model/package.json)
+  - config/
+  - model/
+  - app.js
+  - database.sqlite
+  - package.json
 - **front/**
-  - [assets/](./front/assets)
-  - [css/](./front/css)
-  - [js/](./front/js)
-  - [pages/](./front/pages)
-  - [planilha/](./front/planilha)
-  - [index.html](./front/planilha/index.html)
-- [LICENSE](./LICENSE)
+  - assets/
+  - css/
+  - js/
+  - pages/
+  - planilha/
+  - index.html
+- LICENSE
 
 ### Brainstorm da Solução:
 
