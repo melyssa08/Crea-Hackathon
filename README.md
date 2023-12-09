@@ -64,22 +64,21 @@ http://localhost:3000
 
 ### Estrutura de Pastas
 
-meu_projeto/
-|README.md
-|-- back/
-|    |-- config/
-|    |-- model/
-|    |   |app.js
-|    |   |database.sqlite
-|    |   |package.json
-|-- front/
-|    |-- assets/
-|    |-- css/
-|    |-- js/
-|    |-- pages/
-|    |-- planilha
-|    |   |index.html
-|-- LICENSE
+- [README.md](./README.md)
+- **back/**
+  - [config/](./back/config)
+  - [model/](.back/model)
+  - [app.js](./back/model/app.js)
+  - [database.sqlite](./back/model/database.sqlite)
+  - [package.json](./back/model/package.json)
+- **front/**
+  - [assets/](./front/assets)
+  - [css/](./front/css)
+  - [js/](./front/js)
+  - [pages/](./front/pages)
+  - [planilha/](./front/planilha)
+  - [index.html](./front/planilha/index.html)
+- [LICENSE](./LICENSE)
 
 ### Brainstorm da Solução:
 
