@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    background-color: #1E709B;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#box-principal {
+    display: flex;
+    width: 45%;
+    background-color: #D9D9D9;
+    height: 480px;
+    box-shadow: 5px 5px 10px rgba(0, 0.3, 0.3, 0.3);
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: black;
+    flex-direction: column;
+    align-items: center;
+}
+
+#principal-title {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#input-course, #input-data {
+    display: flex;
+    flex-direction: column;
+}
+
+#first-line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#third-line{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#second-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+#label-data, #label-course {
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+}
+
+#content-principal-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#data, #curso {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    width: 200px;
+}
+
+#button-confirm {
+    width: 40%;
+    height: 30px;
+    background-color: #FE6233;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+#label-upload {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    border-style: dashed;
+    border-width: 2px;
+    padding: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 70%;
+    display: flex;
+}
+
+#icon-logo-end {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 20px;
+    margin-right: 30px;
+}
