@@ -6,6 +6,19 @@ import sequelize from 'sequelize'
 import sqlite3 from "sqlite3";
 import {sequelizeConfig, connection} from "./config/connection.js";
 import Formandos from "./model/planilha.js";
+import path from "path"
+import multer from "multer"
+
+const storage = multer.diskStorage({
+    destination: (req, file, cb) => {
+        cb(null, '../front/planilha');
+    },
+    filename: (req, file, cb) => {
+        cb(null, file.originalname);
+    }
+});
+
+const upload = multer({ storage: storage });
 
 connection()
 Formandos.sync()
@@ -24,11 +37,11 @@ app.get("/", (req, res) => {
     res.sendFile('index.html')
 })
 
-app.post('/planilha', async (req, res) => {
+app.post('/planilha', upload.single('File'), async (req, res) => {
 
-    const {name:name} = req.body
+    const file = req.file
 
-    const pathForPlanilha = `../front/planilha/${name}.xlsx`
+    const pathForPlanilha = `../front/planilha/${file.originalname}`
     const dataBuffer = fs.readFileSync(pathForPlanilha)
     const workbook = xlsx.read(dataBuffer, { type: 'buffer' });
 
@@ -51,7 +64,7 @@ app.post('/planilha', async (req, res) => {
         })
     }
 
-    res.json("Deu certo").status(200)
+    res.json(file.originalname).status(200)
 
 })
 
