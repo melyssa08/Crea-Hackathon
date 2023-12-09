@@ -10,7 +10,7 @@ Essa lista de formandos estaria limitada ao formato ***.xlsx***, o que permitiri
 
 Primeira tela de contato da instituição, no caso do coordenador
 
-![Visão Geral](./front/assets/visao-geral.PNG)
+![Visão Geral](./front/assets/visao-geral.png)
 
 #### Tela de cadastramento do documento
 
