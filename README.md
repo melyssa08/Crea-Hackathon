@@ -10,18 +10,18 @@ Essa lista de formandos estaria limitada ao formato ***.xlsx***, o que permitiri
 
 Primeira tela de contato da instituição, no caso do coordenador
 
-![Visão Geral]("../Crea-Hackathon/front/assets/visao-geral.PNG")
+![Visão Geral](./front/assets/visao-geral.PNG)
 
 #### Tela de cadastramento do documento
 
-![Tela de cadastramento do documento](../Crea-Hackathon/front/assets/cadastro-crea.PNG)
+![Tela de cadastramento do documento](./front/assets/cadastro-crea.PNG)
 
 
 #### Template para auxiliar a instituição em relação ao melhor modelo de lista de formandos
 
 Nossos campos incluem nome, cpf, email e data
 
-![Template](../Crea-Hackathon/front/assets/template.PNG)
+![Template](./front/assets/template.PNG)
 
 ### Descrição da Solução (Conexão com o EMEC)
 
