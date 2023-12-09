@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 #nav-bar {
     width: 100%;
     background-color: #1E709B;
@@ -33,6 +37,7 @@ main {
     flex-direction: column;
     font-family: 'Inter', sans-serif;
     color: #1E709B;
+    margin-left: 10px;
 }
 
 #content-subtitle {

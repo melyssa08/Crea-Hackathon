@@ -1,4 +1,15 @@
 var buttonConfirm = document.getElementById("button-confirm");
+var inputFile = document.getElementById("arquivoInput");
+var label = document.getElementById("label-upload");
+
+inputFile.addEventListener("change", function () {
+    if (inputFile.files.length > 0) {
+        label.textContent = `${arquivoInput.files[0].name}`;
+        label.style.fontWeight = "600"
+    } else {
+        label.textContent = "UPLOAD no formato .xlsx";
+    }
+});
 
 buttonConfirm.addEventListener("click", function () {
     var inputFile = document.getElementById("arquivoInput");

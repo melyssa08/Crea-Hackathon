@@ -23,5 +23,5 @@ if (localStorage.getItem("respostaPlanilha")) {
     newBlock.style.fontFamily = "'Inter', sans-serif";
     newBlock.style.marginLeft = "10px"
 
-    sequenceOfBlocks.appendChild(newBlock);
+    sequenceOfBlocks.insertBefore(newBlock, sequenceOfBlocks.firstChild);
 }
